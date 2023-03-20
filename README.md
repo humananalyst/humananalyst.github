@@ -80,7 +80,30 @@ Dari   tabel   diatas   akan   dilakukan   pengelompokkan barang yang terjual  m
 
 Kemudian  hitung  jarak  antara  masing-masing  item  ke masing-masing  centroid  dengan  menggunakan rumus korelasi   antar   dua   objek   yaitu   Euclidean   Distance sehingga  diperoleh  jarak  antara  masing-masing  item (M) ke C1 dan ke C2 adalahsebagai berikut :
 
+![Screenshot (6)](https://user-images.githubusercontent.com/128302770/226348204-4affc34c-9a43-4af1-ba67-abcb917d02d9.png)
+
+Langkah   selanjutnya   adalah   bandingkan   jarak   dari masing-masing   item   ke   C1   dan   C2 dan   kemudian kelompokkan, misalnya M1 lebih dekat ke C1 daripada ke C2, sehingga M1 menjadi anggota C1.
+
+![Screenshot (7)](https://user-images.githubusercontent.com/128302770/226348964-80acd0ec-c5a6-46d5-8362-0cc384bca2be.png)
+Lalu dilakukan   kembali perhitungan   jarak   dati   masing-masing   item   M   ke C1baru dan C2baru sehingga diperoleh jaraknya seperti tabel berikut:
+![Screenshot (8)](https://user-images.githubusercontent.com/128302770/226349753-f09436f6-89f4-45c1-915e-7d7ee90ef2cb.png)
+
+Langkah   selanjutnya   adalah   bandingkan   jarak   dari masing-masing   item   ke   C1baru   dan   C2baru   dan kemudian  kelompokkan,  misalnya  M1  lebih  dekat  ke C1baru  daripada  ke   C2baru,  sehingga  M1   menjadi anggota C1baru.
+![Screenshot (10)](https://user-images.githubusercontent.com/128302770/226350459-f8fb73cb-e54a-455e-a0f4-7f5439669acf.png)
+
+Dari  tabel  diatas,  dapat  dilihat  bahwa  tidak  terjadi perubahan  anggota  untuk  masing-masing  cluster.  Jika tidak    terjadi    perubahan    anggota,    maka    proses dihentikan.Sehingga     diperoleh     pengelompokkan penjualan seperti berikut:
+![Screenshot (11)](https://user-images.githubusercontent.com/128302770/226350970-85a57cfc-868d-4379-b1c1-8dfc030da04e.png)
+
+Dari  tabel  diatas,  dapat  dibuatkan  grafik  scatter  plot untuk    menggambarkan    kelompok    data    penjualan tersebut diatas:
+![Screenshot (12)](https://user-images.githubusercontent.com/128302770/226352243-af025dd9-e9ce-48ed-8085-9b7322bc7d68.png)
+
+## Impact yang Dihasilkan dari Data Science 
+Data science sangat memudahkan dan meningkatkan kegiatan usaha dalam hal ini pada bisnis retail. Berikut adalah pengaruhnya terhadap bisnis yang sedang berjalan:
+1. Aplikasi data mining yang dihasilkan dari analisis ini dapat membantu toko retail dalam menelompokkan penjualan barang di masing-masing toko retail mereka. 
+2. Dengan adanya aplikasi data mining ini bisa mengurangi penumpukan barang di masing-masing toko retail karena data penjualan barang sudah dikelompokkan dengan baik. 
 
 
+## DAFTAR PUSTAKA
+Diana, C. 15 Desember, 2020. Transformasi Retail dengan Menggunakan Data Science. https://algorit.ma/blog/data-science/tranformasi-retail-data-science/. 
 
-
+Mandala, E. Yanto, M. Putri, D. 2018. Aplikasi Pengelompokan Penjualan dengan Clustering Data Mining pada Toko Retail Kota Padang. _Prosiding Seminar Nasional Sisfotek_, Padang: 4-5 September 2018. Hal. 1-7. 
