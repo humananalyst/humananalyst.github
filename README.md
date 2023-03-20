@@ -1,12 +1,7 @@
-# Usecase Data Science pada Industri Retail
+# Usecase Data Science pada Industri Retail Serta Contoh Pengaplikasiannya
 Sektor retail sebagai penyedia barang atau jasa yang digunakan dalam kehidupan manusia sehari-hari sudah sejak lama memulai transformasi digital dalam bisnisnya. Dengan penggunaan model yang tepat, teknologi digital dapat membantu industri retail mengumpulkan data-data pelanggan yang berharga. Data tersebut nantinya dapat dijadikan insight untuk mencapai keunggulan kompetitif.
 
 Setiap orang baik secara langsung maupun tidak akan berhubungan dengan retail setiap harinya. Tidak heran jika industri retail dianggap sebagai penggerak perekonomian nasional menurut Mendag, Agus Suparmanto. Masyarakat kini semakin terbiasa dengan penggunaan teknologi dan perangkat untuk memudahkan kehidupan.  Maka dari itu transformasi digital di sektor retail sangat penting agar dapat bertahan dan sesuai dengan pola hidup konsumennya.
-
-## Pengaplikasian Data Science pada Industri Retail 
-Ada kutipan dari Gerry McGovern yang mengatakan *“The customer isn’t king anymore, the customer is a dictator”*. Hal ini sangat tepat menggambarkan perkembangan sektor retail saat ini, di mana persaingan yang sangat tinggi menyebabkan retail harus memutar otak agar dapat menyediakan produk yang paling mendekati permintaan pelanggan. Hal ini hanya dapat dilakukan dengan menerapkan model digital dalam bisnis retail.
-
-Perusahaan menggunakan teknologi digital dengan satu tujuan utama, yaitu meningkatkan penjualan dan memotong cost. Teknologi hadir untuk membantu pelanggan menemukan apa yang dibutuhkan pada saat yang tepat. Sementara bagi perusahaan, teknologi berguna untuk memahami apa yang lebih disukai pelanggan untuk dijadikan insight kedepannya. 
 
 Berikut ini adalah pengaplikasian data science pada industri retail yang mampu meningkatkan kepuasan pelanggan. 
 
@@ -35,33 +30,25 @@ Seperti yang kita tahu, Industri retail adalah salah satu industri dengan persai
 Dengan menerapkan Machine Learning, retail dapat menggunakan algoritma supervised learning untuk menganalisis kemungkinan churn di masa yang akan datang dengan berbagai kemungkinan agar hasil lebih akurat. Hal ini dilakukan agar retail dapat menahan konsumennya agar tidak sampai melakukan churn, misalnya dengan pemberian reward ataupun penawaran yang menguntungkan bagi pelanggan tersebut.
 ![image](https://user-images.githubusercontent.com/128302770/226242531-bb17ef73-81ea-4356-8c07-0a3377bf7576.png)
 
-## Metode Analisis Data yang Digunakan pada Industri Retail 
-Metode analisis data sangat membantu dalam membuat rekomendasi perbaiki produk dari bisnis retail yang dimiliki. Contohnya, jumlah pelanggan yang semakin bertambah menunjukkan bahwa bisnis yang sedang dibangun memiliki value yang menarik. Value tersebut tentu bisa menurun jika tidak mampu dipertahankan. Berikut ini adalah metode analisis data yang digunakan dalam meningkatkan value bisnis retail. 
+# Aplikasi Pengelompokan Penjualan dengan Clustering Data Mining pada Toko Retail Kota Padang
+Perkembangan industri retail di Indonesia sangat pesat, namun  tidak  diiringi  oleh  informasi  yang  menunjang, sangat  susah  mencari  informasi  tentang  perkembangan retail   di   internet.   Retail   (usaha   perdagangan   kecil) adalah  bisnis  yang  akan  tetap  menjadi  bisnis  yang menarik  sepanjang  masa  dengan  tingkat  pertumbuhan tak   terbatas.   Retail   adalah   kegiatan   jual   beli   baik barang maupun jasa secara langsung kepada konsumen. 
 
-### 1. Market Basket Analysis: Mengenali Pola Unik Transaksi Pelanggan untuk Meningkatkan Penjualan
-Market Basket Analysis atau dikenal dengan  MBA merupakan suatu metode analisis data yang bertujuan untuk menentukan pola unik dari suatu data berdasarkan perilaku transaksi pelanggan. Pernahkah kamu melakukan transaksi pembelian lebih dari dua kombinasi produk? Atau, ketika di swalayan atau toko waralaba kamu pernah memperhatikan rak barang yang ada di depanmu? Sebenarnya itu didapatkan berdasarkan implementasi metode analisis data menggunakan market basket analysis. 
+Konsumen    yang    membeli    barang    tersebut    akan langsung  menggunakannya  (bukan  untuk  kepentingan bisnis).Perusahaan  retail  di  Indonesia  ini  sudah  banyak  dan menjamur  dimana-mana.  Wujud  dari  retail  ini  adalah minimarket   yang   setiap   jengkal   bisa   kita   temui. Minimarket  merupakan  salah  satu  bentuk  retail  yang menyediakan   barang   kebutuhan   sehari-hari.   Dengan banyaknya  minimarket  yang  bermunculan,  konsumen dimudahkan  dalam  mencari  barang  kebutuhan  sehari-hari.  Namun,  tidak  begitu  dengan  retail  itu  sendiri, barang  yang  mereka  sediakan banyak  yang  menumpuk karena  tidak  terjual.  Ini  lah  yang  menjadi  masalah utama  bagi para  pengusaha  retail.  Akibatnya,  barang-barang  yang  tersedia  akan  habis  masa kadaluarsanya sebelum sempat terjual.
 
-Jika dataset transaksi penjualan yang dimiliki berjumlah lebih dari 100 transaksi, maka kita akan mendapatkan kesulitan untuk melihat kombinasi transaksi penjualan produk pada bisnismu dengan cara manual. Sehingga, pengembangan produk yang  dilakukan akan terhambat dan value bisnis akan menurun. Hal ini disebabkan karena improvement pada bisnis sedikit terlambat dibandingkan dengan kompetitor. Penerapan metode analisis data untuk mengenali pola unik transaksi pelanggan akan sangat mempermudah kita dalam meningkatkan penjualan produk seperti melakukan inovasi terhadap paket kombinasi produk bisnis. 
+*Data  mining* dapat  memberikan  solusi  untuk  masalah pengelompokkan   barang   yang   ada   di   toko   retail tersebut.  Data  mining  dengan  menggunakan  metode *Clustering* dapat    mengelompokkan    barang-barang menjadi  beberapa  kelompok  sesuai  yang  diinginkan oleh  pengusaha  retail  tersebut.  Sehingga  pengusahaa retail dapat menentukan barang mana yang pengadaannya harus ditambah atau dikurangi.
 
-### 2. Apriori Algorithm: Ketahui Asosiasi Kombinasi Transaksi Penjualan Produk Bisnis dengan Akurat!
-Bicara mengenai pemaketan produk sebenarnya adalah mencari produk-produk yang memiliki hubungan atau asosiasi kuat di dalam transaksi. Hubungan "kuat" disini akan dilihat berdasarkan proporsi jumlah kemunculan kombinasi produk yang akan dipaketkan dengan keseluruhan transaksi. Metode analisis data dengan Apriori Algorithm, menghasilkan rekomendasi yang dapat digunakan untuk membuat keputusan yang sangat menguntungkan bagi keberlanjutan bisnis.
+## Metode Analisis Data yang Digunakan pada Toko Retail Kota Padang
+Memanfaatkan data science, toko yang bergerak pada industri retail ini menggunakan metode analisis data sebagai berikut:
 
-Apriori algorithm adalah salah satu algoritma yang merupakan penerapan praktis dari Market Basket Analysis (MBA). Algoritma ini digunakan untuk menganalisa banyaknya kombinasi produk yang terjadi di dalam transaksi ritel, yang akan sulit dan lama jika dilakukan secara manual.
+### 1. Knowledge Discovery and Database
+*Knowledge  Discovery  in  Database*  (KDD) merupakan proses  pencarian  pengetahuan  yang  bermanfaat  dari kumpulan  data.  Proses  KDD  bersifat  interaktif  dan iteratif,  meliputi  sejumlah  langkah  dengan  melibatkan pengguna    dalam  membuat    keputusan    dan    dapat dilakukan pengulangan diantara dua langkah.
 
-Secara teknis, metode analisis data ini akan mencari tingkat asosiasi antar item di dalam banyak kombinasi kelompok data secara otomatis. Kombinasi ini juga bisa disusun dengan suatu aturan (rule) asosiasi "Jika membeli ini produk A maka akan membeli produk B", sehingga algoritma ini dikategorikan sebagai Association Rules di ranah machine learning.
-
-Dengan menemukan paket produk yang asosiasinya kuat, seorang praktisi dapat menyarankan kepada tim bisnis agar melakukan berbagai action item seperti membuat paket produk dengan penawaran khusus, mendekatkan produk-produk tersebut saling berdekatan dalam satu rak, mengeluarkan rekomendasi produk di sistem e-commerce, mengurangi masalah stok di inventori, dan lain-lain.
-
-### 3. Scaling Up Bisnis dengan Kombinasi Apriori Alogarithm dan Market Basket Analysis
-Jika diperhatikan, di swalayan atau toko waralaba terdapat rak penyimpanan produk yang produknya disusun secara tersusun rapi dan terarah. Ternyata, selain untuk menunjukkan kesan aesthetic dan enak dilihat, hal tersebut adalah hasil dari penerapan kombinasi Apriori Algorithm dan Market Basket Analysis. Dalam menentukan susunan produk yang ada di dalam rak, tentu tim praktisi data sudah menyampaikan beberapa produk yang jadi primadona di swalayan tersebut.
-
-Selain itu, adanya bundling package yang disediakan oleh banyak swalayan juga merupakan hasil penerapan kedua metode analisis data ini untuk menangani stok inventori barang yang memiliki status *slow moving item"* tau barang yang kurang laku terjual. Bundling package ini biasanya dilakukan dengan memaketkan produk yang paling laku terjual dan produk yang kurang laku terjual. Hal ini dilakukan dengan memberikan harga khusus atau promosi khusus dalam setiap bundlingnya. 
-
- ## Contoh Data yang Dipakai untuk Data Science di Industri Retail 
- 
- 
-
-
+Proses   KDD   terdiri   dari   beberapa  langkah   sebagai berikut :
+a. *Data cleaning*, menghilangkan noise  dan data  yang tidak konsisten.
+b. *Data     integration*,     mengintegrasikan     beberapa sumber data yang dapat digabungkan.
+c. *Data   selection*,   menyeleksi   data   yang   relevan dengan tugas analisis akan diambil dari database.
+d. *Data transformation*, proses dimana data ditransformasikan  atau  dikonsolidasi  dalam  format yang sesuai untuk diproses dalam data mining.
+e.*Data mining*, sebuah proses esensial dimana metode diaplikasikan untuk mengekstrak pola data.
 
 
 
