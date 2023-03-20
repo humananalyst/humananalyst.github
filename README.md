@@ -48,15 +48,37 @@ a. *Data cleaning*, menghilangkan noise  dan data  yang tidak konsisten.
 b. *Data     integration*,     mengintegrasikan     beberapa sumber data yang dapat digabungkan.
 c. *Data   selection*,   menyeleksi   data   yang   relevan dengan tugas analisis akan diambil dari database.
 d. *Data transformation*, proses dimana data ditransformasikan  atau  dikonsolidasi  dalam  format yang sesuai untuk diproses dalam data mining.
-e.*Data mining*, sebuah proses esensial dimana metode diaplikasikan untuk mengekstrak pola data.
+e. *Data mining*, sebuah proses esensial dimana metode diaplikasikan untuk mengekstrak pola data.
+f. *Pattern  evaluation*,  proses  untuk  mengidentifikasi pola-pola  yang  menarik  untuk  direpresentasikan  ke dalam knowledge based.
+g. *Knowledge   Presentation*,   proses   visualisasi   dan teknik   representasi   pengetahuan   yang   digunakan untuk    menyajikan    pengetahuan    yang    berguna kepada pengguna.
 
+### 2. Data Mining
+Data  Mining  merupakan  bagaimana menjelaskan  masa lalu dan  memprediksi  masa depan dengan cara  analisis data.  Data  mining  adalah  bidang  disiplin  ilmu  yang menggabungkan statistik, pembelajaran mesin, kecerdasan buatan dan teknologi database.
 
+Data    mining    adalah    melakukan    ekstraksi    untuk mendapatkan  informasi  penting  yang  sifatnya  implisit dan sebelumnya tidak diketahui, dari suatu data.
 
+Data  mining  adalah  analisis  dari  pengamatan  set  data (yang biasanya besar) untuk menemukan hubungan tak terduga  dan  untuk  meringkas  data  dengan  cara  baruyang  dapat  dimengerti  dan  berguna  bagi  pemilik  data. Pengertian    diatas    diperkuat    lagi    dengan    Jurnal Internasional   yang   mengatakan  Data   mining  adalah metodologi    analisis    data    yang    digunakan    untuk mengidentifikasi   pola-pola   yang   tersembunyi   dalam satu set data yang besar. 
 
+### 3. Clustering 
+Clustering    menganalisis    objek    data    tanpa  mencari  keterangan    pada    label    kelas    yang    diketahui.    Pada  umumnya,   label   kelas   tidak   ditampilkan   di   dalam latihan   data   simply,   karena   mereka   tidak      tahu  bagaimana memulainya.  Clustering  dapat  digunakan  untuk menghasilkan label-label.Salah  satu  teknik  yang  di  kenal  dalam  data  mining yaitu clustering. Perngertian clustering adalah pengelompokkan  sejumlah  data  atau  objek  kedalam cluster  (group)  sehingga  setiap  cluster  akan  berisi  data yang  semirip   mungkin   dan   berbeda   dengan   objek dalam cluster yang lainnya. 
 
+Clustering  adalah  membagi  data  ke  dalam  grup-grupyang  mempunyai  obyek  yang  karakteristiknya  sama.Clustering    mengacu    pada    pengelompokkan    data, observasi,  atau  kasus  kedalam  kelas  objek  yang  sama. Cluster  adalah  kumpulan  data  yang  mirip  satu  sama lain   dan   berbeda   dengan   data   dari kelompok   lain. Pengelompokkan dalam cluster tidak untuk mengklasifikasi,   memperkirakan,   atau   memprediksi nilai  variable  target.  Sebaliknya,  algoritma  klasterisasi untuk  semua  data  di  tetapkan  menjadi  subkelompok yang  relatif  homogen,  di  man  kesamaan  data  dalam cluster dimaksimalkan, dan kesamaan dengan data dari luar cluster diminimalkan.
 
+### 4. Alogaritma K-Means
+K-Means   merupakan   metode   penglompokkan   data nonhierarki  yang  berusaha  mempartisi  data  kedalam dua    bentuk    atau    lebih    kelompok.    Metode    ini mempartisi   data   kedalam   kelompok   sehingga   data berkarakteristik   sama   dimasukkan   ke dalam   satu kelompok  yang  sama  dan  data  yang  berkarakteristik berbeda dikelompokkan kedalam kelompok lain. 
 
+Tujuan    dari    pengelompokkan    ini    adalah    untuk meminimalkan fungsi objektif yang diatur dalam proses pengelompokkan,    yang    pada    umumnya    berusaha meminimalkan  variasi  di  dalam  suatu  kelompok  dan memaksimalkan variasi antar kelompok.
 
+Proses clustering dimulai dengan mengidentifikasi data yang  akan  di  cluster,  xij  (i=1,...,n;  j=1,...,m)  dengan  n adalah  jumlah  data  yang  akan  di  cluster  dan  m  adalah jumlah  variabel.  Pada  awal  iterasi,  pusat  setiap  cluster di  tetapkan  secara  bebas  (sembarang),  ckj  (k=1,...,k; j=1,...,m).  Kemudian  dihitung  jarak  antara  setiap  data dengan setiap pusat cluster.
+
+## Contoh Data yang Ada di Bisnis Toko Retail Kota Padang
+Pada tahap  analisa  dilakukan  analisa  terhadap  data yang diperoleh dari salah satu toko retail. Untuk proses analisa data ini, digunakan hanya beberapa data sampel untuk  memastikan  aplikasi  data  mining  yang  dibuat sesuai   dengan   proses   perhitungan   dengan   metode Clustering Algoritma K-Means.Berikut sampel data  yang digunakan terdiri dari 7 item barang yaitu makanan ringan dan minuman.
+
+![Screenshot (2)](https://user-images.githubusercontent.com/128302770/226346634-0178b285-8469-45db-bce8-0e74a9cb842f.png)
+
+Dari   tabel   diatas   akan   dilakukan   pengelompokkan barang yang terjual  menjadi 2 buah cluster (kelompok) yaitu  barang  yang Larisdan  barang  yang Kurang Laris.Untuk cluster yang Laris (cluster 1), akan dibangkitkan centroid  dengan  stok  30  dan  terjual  26.  Sedangkan, untuk   cluster   yang   Kurang   Laris   (cluster   2),   akan dibangkitkan  centroid  dengan  stok  55  dan  terjual  13. Jadi, nilai C1 = {30, 26} dan C2 = {55, 13}.
+
+Kemudian  hitung  jarak  antara  masing-masing  item  ke masing-masing  centroid  dengan  menggunakan rumus korelasi   antar   dua   objek   yaitu   Euclidean   Distance sehingga  diperoleh  jarak  antara  masing-masing  item (M) ke C1 dan ke C2 adalahsebagai berikut :
 
 
 
